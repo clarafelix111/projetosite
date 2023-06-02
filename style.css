@@ -1,0 +1,27 @@
+
+.bb{
+    background-color: blue;
+    height: 30px;
+   
+}
+
+
+.produtos{
+    margin: 0 auto;
+    text-align: center;
+}
+.imagem1{
+    display: flexbox;
+
+}
+.img {
+    display: flexbox;
+
+}
+
+.Rodapé {
+    display: flex;
+    background-color: blue;
+
+}
+

@@ -21,7 +21,11 @@
 
 .Rodapé {
     display: flex;
-    background-color: blue;
+    background: #132956;
+    color: aliceblue;
+    height: 300px;
+    font-size: 30px;
 
 }
+
 

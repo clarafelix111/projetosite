@@ -1,4 +1,6 @@
 
+  
+  @import url('https://fonts.googleapis.com/css2?family=Kavoon&family=Podkova:wght@600&family=Roboto:ital,wght@1,300&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Lancelot&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap');
 
@@ -16,6 +18,7 @@
 
 .oferta{
     color: #E02323;
+    font-size: 64px;
 }
 
 .bb ul{
@@ -24,10 +27,12 @@
 
 .logo h1{
     font-family: 'Lancelot', cursive;
+    font-size: 64px;
 }
 
 .logo p{
-    font-family: 'Lexend Zetta', sans-serif;;
+    font-family: 'Lexend Zetta', sans-serif;
+    font-size: 24px;
 }
 
 .painel{
@@ -40,10 +45,10 @@
     text-align: center;
 }
 .imagem1{
-    display: flexbox;
+    display: flex;
 }
 .img {
-    display: flexbox;
+    display: flex;
 }
 
 .Rodapé {
@@ -52,7 +57,6 @@
     color: aliceblue;
     height: 300px;
     font-size: 30px;
-
 }
 
 

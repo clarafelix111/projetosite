@@ -1,4 +1,6 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Kavoon&family=Podkova:wght@600&family=Roboto:ital,wght@1,300&display=swap');
+
 .bb{
     background-color: blue;
     height: 30px;
@@ -24,16 +26,27 @@
     background: #132956;
     color: aliceblue;
     height: 300px;
+    font-size: 26px;
+    gap: 250px;
+    font-family: 'Podkova';
+    position: absolute;
+   
+    
+  
    
 
 }
+
 .tex{
     flex-direction: column;
+    
 }
+
 .texto{
-    height: 0px;
+   
+    width:  500px;
     font-size: 30px;
-    width:  1000px;
+   
 
 }
 

@@ -9,7 +9,7 @@
  height: 84px;
 }
 
-.bb{
+.painel{
     display: flex;
     flex-direction: row;
     background-color: #18C6C6;
@@ -21,18 +21,18 @@
     font-size: 64px;
 }
 
-.bb ul{
+.painel ul{
     list-style: none;
 }
 
 .logo h1{
     font-family: 'Lancelot', cursive;
-    font-size: 64px;
+    font-size: 60px;
 }
 
 .logo p{
     font-family: 'Lexend Zetta', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .painel{

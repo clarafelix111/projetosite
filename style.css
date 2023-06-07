@@ -24,8 +24,16 @@
     background: #132956;
     color: aliceblue;
     height: 300px;
-    font-size: 30px;
+   
 
 }
+.tex{
+    flex-direction: column;
+}
+.texto{
+    height: 0px;
+    font-size: 30px;
+    width:  1000px;
 
+}
 

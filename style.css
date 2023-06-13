@@ -2,6 +2,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Kavoon&family=Podkova:wght@600&family=Roboto:ital,wght@1,300&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Lancelot&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Ruluko&display=swap');
 
 .borda{
  background-color: #132956;
@@ -9,43 +10,75 @@
 }
 
 .painel{
+    background-color: #18C6C6;
+    height: 720px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.textopainel{
     display: flex;
     flex-direction: row;
-    background-color: #18C6C6;
-    height: 677.2px;
+    justify-content: space-around;
+    gap: 30px;
 }
 
 .oferta{
+    font-family: 'Ruluko', sans-serif;
+    margin-top: -80px;
     color: #E02323;
     font-size: 64px;
 }
 
+.oferta p{
+    margin-left: 700px;
+}
+
 .painel ul{
+    display: flex;
+    flex-direction: row;
+    color: white;
     list-style: none;
+    gap: 50px;
+    font-size: 32px;
+    margin-top: 10px;
 }
 
 .logo h1{
+    color: white;
     font-family: 'Lancelot', cursive;
-    font-size: 60px;
+    font-size: 64px;
+    margin-top: 1px;
 }
 
 .logo p{
+    color: white;
     font-family: 'Lexend Zetta', sans-serif;
-    font-size: 20px;
+    font-size: 24px;
+    margin-top: -40px;
 }
 
-.painel{
-    margin: 0 auto;
-    text-align: center;
+.icones{
+    display: flex;
+    margin-top: 15px;
+    gap: 20px;
+}
+
+.icones a{
+    display: flex;
+    margin-top: 4px;
+    gap: 20px;
 }
 
 .produtos{
     margin: 0 auto;
     text-align: center;
 }
+
 .imagem1{
     display: flex;
 }
+
 .img {
     display: flex;
 }
@@ -56,6 +89,13 @@
     color: aliceblue;
     height: 300px;
     font-size: 30px;
+    gap: 250px;
+    font-family: 'Podkova';
+    
+}
+
+.tex{
+    flex-direction: column;
 }
 
 .texto{

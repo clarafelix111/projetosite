@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,80 +8,119 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="./style.css">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
+
 <body>
-<div class="borda"></div>
+    <div class="tudo">
+        <div class="borda"></div>
+        <aside id="menuOculto" class="menuOculto">
+            <a href="javascript:void(0)" class="btnFechar" onclick="fecharNav()">&times;</a>
+            <a href="#">tendências</a>
+            <a href="#">novidades</a>
+            <a href="#">promoções</a>
+        </aside>
 
-    <div class="painel">
-
-      <div class="textopainel">
-        <div class="logo">
-<h1>ns</h1>
-<p>Shoes Store</p>
-</div>
-<ul>
-<li>tendências</li>
-<li>novidades</li>
-<li>promoções</li>
-</ul>
-
-<div class="icones">
-<img src="./img/lupa.svg" alt="">
-<a href="./teladelogin.html"><img src="./img/sacola.svg" alt=""></a>
-<img src="./img/tracinhos.svg" alt="">
-</div>  
-</div>
+        <div class="painel">
+            <div class="pesquisa">
+                <input type="text"><img src="./img/lupa.svg" alt="" id="lupa"><a href="./teladelogin.html"><img
+                        src="./img/sacola.svg" alt="" id="sacola"></a>
+            </div>
 
 
-<div class="oferta">
-<p>5% OFF</p>
-<img src="./img/tenispainel2.svg" alt="">
-<img src="./img/tenispainel1.svg" alt="">
-<img src="./img/tenispainel3.svg" alt="">
-<img src="./img/setaesquerda.svg" alt="">
-<img src="./img/setadireita.svg" alt="">
-</div>
+            <div class="textopainel">
+                <div class="logo">
+                    <h1>ns</h1>
+                    <p>Shoes Store</p>
+                    <nav>
+                </div>
+
+                <div class="icones">
+
+                    <section id="principal">
+                        <span style="font-size: 40px;cursor: pointer;color: white;" onclick="abrirNav()">&#9776;
+                        </span>
+                    </section>
+                </div>
+                </nav>
+            </div>
+
+
+
+            <div class="oferta">
+                <p>5% OFF</p>
+                <img src="./img/tenispainel3.svg" alt="">
+                <img src="./img/tenispainel1.svg" alt="">
+                <img src="./img/tenispainel2.svg" alt="">
+            </div>
+
+        </div>
+
+
+
+        <div class="produtos">
+
+            <h1>Conforto</h1>
+            <h2>Estilo</h2>
+        </div><br></br>
+        <br></br>
+
+
+        <div class="projeto">
+
+            <div class="imagens1">
+                <img src="./img/img1.svg" alt="img1">
+
+                <img src="./img/img2.svg" alt="img2">
+                <img src="./img/img3.svg" alt="img3">
+                <img src="./img/img4.svg" alt="img4">
+            </div><br><br><br><br><br><br><br><br>
+        </div>
+        <div class="qualidade">
+            <h2>Qualidade no seu dia-a-dia</h2>
+        </div>
+        <div class="imagens2">
+
+            <img src="./img/img5.svg" alt="img5">
+            <img src="./img/img6.svg" alt="img6">
+            <img src="./img/img7.svg" alt="img7">
+        </div><br><br><br><br><br><br><br><br>
+    </div>
+
 
     </div>
-   
-
-
-<div class="produtos">
-
-        <p>hvfdfnnbvcfx</p>
-
- <div class="imagem1"></div>
-
-        <div class="im"></div>
-
-
-</div>
-
 
 
 
 
     <div class="Rodapé">
-        
-        <p>Suporte<br>
+
+        <p id="suporte">Suporte<br>
             FAQ<br>
             Chat</p>
-       
+
         <div class="tex">
-        <p>Sobre nós<br>
-            Informações da Empresa</p>
-            <img src="./img/img.svg" alt="">
-            <img src="./img/imagem.svg" alt="">
-        </div> 
+            <p id="sobre">Sobre nós<br>
+                Informações da Empresa</p>
+            <div class="contato"><a href="https://www.instagram.com/"><img src="./img/img.svg" alt="" class="insta"
+                        id="insta"></a>
+                <img src="./img/imagem.svg" alt="">
+                +55 (88) 99473-4120
+            </div>
+        </div>
 
         <div class="texto">
-        <p>Informações<br>
-            Nossa empresa percebeu que faltava estilo e conforto nos tênis que 
-            usávamos diariamente, para caminhar, fazer exercícios, correr 
-            e atividades no dia-a-dia. Nosso objetivo é inovar nas cores e no modelo.
+            <p>Informações:<br>
+                Nossa empresa percebeu que faltava estilo e conforto nos tênis que
+                usávamos diariamente, para caminhar, fazer exercícios, correr
+                e atividades no dia-a-dia. Nosso objetivo é inovar nas cores e no modelo.
             </p>
         </div>
 
     </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
 </body>
+
 </html>

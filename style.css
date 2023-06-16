@@ -2,11 +2,48 @@
   @import url('https://fonts.googleapis.com/css2?family=Kavoon&family=Podkova:wght@600&family=Roboto:ital,wght@1,300&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Lancelot&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Ruluko&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Kavoon&family=Lobster+Two:ital,wght@1,700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,600&display=swap');
+
+html, body{
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
 
 .borda{
- background-color: #132956;
- height: 84px;
+   background-color: #132956;
+   height: 84px;
+}
+
+.pesquisa{
+    margin: 0 auto;
+    text-align: center;
+    gap: -50px;
+}
+
+.pesquisa img{
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.pesquisa input{
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    width: 800px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+#lupa:hover{
+    cursor: pointer;
+    filter: invert(1);
+}
+
+#sacola:hover{
+    cursor: pointer;
+    filter: invert(1);
 }
 
 .painel{
@@ -23,17 +60,6 @@
     gap: 30px;
 }
 
-.oferta{
-    font-family: 'Ruluko', sans-serif;
-    margin-top: -80px;
-    color: #E02323;
-    font-size: 64px;
-}
-
-.oferta p{
-    margin-left: 700px;
-}
-
 .painel ul{
     display: flex;
     flex-direction: row;
@@ -44,15 +70,30 @@
     margin-top: 10px;
 }
 
+.oferta{
+    margin-top: -80px;
+    color: #E02323;
+    font-size: 64px;
+}
+
+.oferta p{
+    margin-left: 700px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.logo{
+    margin-left: -200px
+}
+
 .logo h1{
-    color: white;
+    color: black;
     font-family: 'Lancelot', cursive;
     font-size: 64px;
     margin-top: 1px;
 }
 
 .logo p{
-    color: white;
+    color: black;
     font-family: 'Lexend Zetta', sans-serif;
     font-size: 24px;
     margin-top: -40px;
@@ -70,28 +111,104 @@
     gap: 20px;
 }
 
+.menuOculto{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.menuOculto a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: grey;
+    display: block;
+    transition: 0.3s;
+}
+
+.menuOculto a:hover{
+    color: white;
+}
+
+.btnFechar{
+    position: absolute;
+    top: 0;
+    left: 25px;
+    font-size: 36px;
+    margin-right: 50px;
+}
+
+#principal{
+    padding: 16px;
+    transition: margin-right 0.5s;
+    margin-left: 200px;
+}
+
+#principal:hover{
+    cursor: pointer;
+    filter: invert(1);
+}
+
+.projeto{
+    gap: 50px;
+}
+
 .produtos{
     margin: 0 auto;
     text-align: center;
+    font-size: 50px;
+    font-family: 'Lobster Two';
+    justify-content: space-around;
 }
 
-.imagem1{
-    display: flex;
+.produtos p{
+    margin-top: 100px;
 }
 
-.img {
-    display: flex;
+.qualidade{
+    font-family: 'Lobster Two';
+    font-size: 50px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -200px;
+}
+
+.imagens1{
+    display: flexbox;
+    gap: 100px;
+    margin-top: -120px;
+}
+
+.imagens2{
+    display: flexbox;
+    margin-top: -100px;
+}
+
+.imagens1 img{
+    margin: 95px;
+}
+
+.imagens2 img{
+    margin: 130px;
 }
 
 .Rodapé {
     display: flex;
     background: #132956;
     color: aliceblue;
-    height: 300px;
+    height: 380px;
     font-size: 30px;
-    gap: 250px;
+    gap: 410px;
     font-family: 'Podkova';
-    
+    justify-content: space-around;
+    margin-top: -150px;
 }
 
 .tex{
@@ -103,3 +220,28 @@
     font-size: 30px;
 }
 
+#suporte:hover{
+    cursor: pointer;
+}
+
+#sobre:hover{
+    cursor: pointer;
+}
+
+#insta:hover{
+    cursor: pointer;
+    filter: invert(1);
+}
+
+.contato{
+    display: flex;
+    gap: 10px;
+}
+
+.content {width:910px;}
+
+@media (max-width: 480px) {
+
+.content {width:100%;}
+
+}

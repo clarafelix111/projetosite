@@ -2,15 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+html, body{
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
 
 .partecima{
     background-color: #260DC0;
-    height: 55px;
+    height: 60px;
+}
+
+.partecima img{
+    display: flex;
+    margin-left: 30px;
 }
 
 .tela{
     background-color: black;
-    height: 840px;
+    height: 860px;
     margin: 0 auto;
     text-align: center;
 }
@@ -34,11 +44,24 @@
 .form{
     display: flex;
     flex-direction: column;
-    margin-top: -10px;
+    margin-top: 30px;
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 38px;
     gap: 15px;
+    border-radius: 50px;
+}
+
+.nometitulo{
+    margin-left: -700px;
+}
+
+.senhatitulo{
+    margin-left: -700px;
+}
+
+.endereçotitulo{
+    margin-left: -650px;
 }
 
 .nome {
@@ -65,18 +88,39 @@
     text-align: center;
 }
 
-.login {
+.login{
     margin: 0 auto;
     text-align: center;
     background-color: #D9D9D9;
     height: 72px;
-    width: 438px;
+    width: 538px;
     margin-top: 50px;
     font-family: 'Roboto', sans-serif;
     font-size: 38px;
 }
 
+.login:hover{
+    cursor: pointer;
+}
+
+.registro{
+    color: white;
+    font-size: 30px;
+}
+
+.registro a{
+    color:blue;
+}
+
 .rodapé{
     background-color: #260DC0;
-    height: 55px;
+    height: 60px;
+}
+
+.content {width:910px;}
+
+@media (max-width: 480px) {
+
+.content {width:100%;}
+
 }
